@@ -13,7 +13,9 @@
 
 <body>
   <script>
-    alert(window.location);
+    var parts = str.split("?");
+    alert(parts[1]);
+    // window.location = 'handpoint://shared-secret/' + parts[1];
   </script>
 </body>
 </html>
